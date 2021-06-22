@@ -6,6 +6,22 @@ body{
     color: #fafafa;
     font-family: "Lexend", sans-serif;
 }
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(15deg, #323840 57%,#384354 63%);
+    border-radius: 12px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #323840 8%,#384354 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 9px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+   }
 .menu-bar{
     display: flex;
     flex-direction: row;
@@ -29,6 +45,11 @@ body{
     text-decoration: none;
     color: #fafafa;
     letter-spacing: 2px;
+    transition: 0.6s;
+}
+.menu a:hover{
+    text-decoration: underline;
+    transition: 1s;
 }
 .logo{
     display: flex;
@@ -46,6 +67,7 @@ body{
     text-decoration: none;
     color: #fafafa;
 }
+
 li{
     list-style: none;
     text-decoration: none;
@@ -72,7 +94,7 @@ li{
     color: snow;
     font-weight: 500;
     letter-spacing: 2.5px;
-    font-size: 3rem;
+    font-size: 48px;
     margin: 0;
 }
 .name h2{
@@ -85,7 +107,7 @@ li{
     color: lightgrey;
 }
 .contact{
-    margin-top: 1rem;
+    margin-top: 10px;
     border-bottom: 1px solid #fff;
 }
 .about p{
@@ -94,13 +116,13 @@ li{
 .social-icon{
     color: white;
     border: 1px solid white;
-    padding: 0.65rem 0.75rem;
+    padding: 10px 11px;
     border-radius: 12px;
     transition: 0.5s;
     margin-right: 15px;
 }
 .social-icon:hover{
-    color: #0f1419;
-    border: 1px solid #0f1419;
+    color: #0a0e14;
+    border: 1px solid #0a0e14;
     background-color: white;
 }
