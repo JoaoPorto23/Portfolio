@@ -1,2 +1,2 @@
 # Portfolio
-Repositório direcionado para a criação do meu Portfólio
+Repositório direcionado a criação do meu Portfólio
