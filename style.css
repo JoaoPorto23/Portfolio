@@ -6,6 +6,9 @@ body{
     color: #fafafa;
     font-family: "Lexend", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
     width: 9px;
     height: 9px;
@@ -126,3 +129,51 @@ li{
     border: 1px solid #0a0e14;
     background-color: white;
 }
+#habilidades {
+    padding: 0 5rem;
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+    background-color: #0f1419;
+}
+#habilidades h1 {
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    flex-direction: column;
+}
+.row-skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.row-skills div{
+    background: #0a0e14;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid darkgrey;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1.33rem;
+    transition: 0.9s;
+}
+.row-skills div:hover {
+    background: #0f1419;
+    border: 1px solid #0a0e14;
+    box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
+}
+.language a{
+    color: #fafafa;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.language i{
+    font-size: 40px;
+    margin-top: 25px;
+}
+

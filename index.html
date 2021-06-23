@@ -56,5 +56,38 @@
 					<img class="picture" src="img/João Victor Porto(1).jpeg" alt="Imagem de perfil">
 				</div>	
 			</section>
+			<section id="habilidades">
+				<h1>Habilidades</h1>
+				<div class="skills">
+					<div class="row-skills">
+						<div class="language">
+							<i class="fab fa-html5"></i>
+							<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a>
+						</div>
+						<div class="language">
+							<i class="fab fa-css3-alt"></i>
+							<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a>
+						</div>
+						<div class="language">
+							<i class="fab fa-js-square"></i>
+							<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Javascript</a>
+						</div>
+						<div class="language">
+							<i class="fab fa-bootstrap"></i>
+							<a href="https://getbootstrap.com/">Bootstrap</a>
+						</div>
+						
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		var $root = $('html, body');
+
+		$('a[href^="#"]').click(function () {
+			$root.animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 500);
+
+			return false;
+		});
+	</script>
 </body>
 </html>
