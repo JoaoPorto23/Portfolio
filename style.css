@@ -41,7 +41,7 @@ html{
     justify-content: space-around;
     align-items: center;
     transition: 0.6s;
-    padding: 2rem;
+    padding: 15px;
 }
 .menu a{
     margin: 0 10px 0 10px;
@@ -52,7 +52,8 @@ html{
 }
 .menu a:hover{
     text-decoration: underline;
-    transition: 1s;
+    transition: 0.5s;
+    color: gray;
 }
 .logo{
     display: flex;
@@ -70,7 +71,6 @@ html{
     text-decoration: none;
     color: #fafafa;
 }
-
 li{
     list-style: none;
     text-decoration: none;
