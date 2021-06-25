@@ -8,19 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1940b672bc.js" crossorigin="anonymous"></script>
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<script src="script.js" defer></script>
 </head>
 <body>
     <div id="container">
-		<header>
-			<div class="menu-bar">
+		<header id="header">
+			<div class="menu-bar" id="menu">
 				<div class="logo"><a href="index.html">Portfólio</a></div>
 				<nav class="list">
 					<ul class="menu">
 						<li><a href="#sobre">Sobre</a></li>
 						<li><a href="#habilidades">Habilidades</a></li>
+						<li><a href="#competencias">Competências</a></li>
 						<li><a href="#projetos">Projetos</a></li>
-						<li><a href="#formacao">Formação</a></li>
 						<li><a href="#certificados">Certificados</a></li>
 					</ul>
 				</nav>
@@ -39,7 +40,7 @@
 					<div class="about">
 						<p>Analista e Desenvolvedor de Sistemas<br/>
 							Em busca da primeira oportunidade no mercado de trabalho<br/>
-							Estudando e expandindo conhecimento em Front-End<br/>
+							Objetivo de me tornar um Desenvolvedor Front-End<br/>
 						</p>
 					</div>	
 					<div class="icons">
@@ -72,18 +73,77 @@
 							<i class="fab fa-bootstrap"></i>
 							<a href="https://getbootstrap.com/">Bootstrap</a>
 						</div>
-						
+					</div>
+					<div class="row-skills">
+						<div class="language">
+							<i class="fab fa-git-alt"></i>
+							<a href="https://git-scm.com/">GIT</a>
+						</div>
+						<div class="language">
+							<i class="fab fa-github"></i>
+							<a href="https://github.com">Github</a>
+						</div>
+						<div class="language">
+							<i class="fab fa-python"></i>
+							<a href="https://python.org.br/">Python</a>
+						</div>
+						<div class="language">
+							<i class="fab fa-java"></i>
+							<a href="https://python.org.br/">Java</a>
+						</div>
+					</div>
+					<h1>Estudando</h1>
+					<div class="skills">
+						<div class="row-skills">
+							<div class="language">
+								<i class="fab fa-sass"></i>
+								<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Sass</a>
+							</div>
+							<div class="language">
+								<i class="fas fa-spinner"></i>
+								<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Jquery</a>
+							</div>
+							<div class="language">
+								<i class="fas fa-database"></i>
+								<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MySQL</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="competencias">
+				<div>
+					<h1>Competências</h1>
+				</div>	
+				<div class="first-row">
+					<div>
+						<h2>Tecnologia em Análise e Desenvolvimento de Sistemas</h2>
+						<h3>Paulista, São Paulo - Brasil</h3>
+						<h4>Tecnólogo · 2021 - 2022</h4>
+					</div>
+					<div class="icons-competencia">
+						<i class="fas fa-user-graduate"></i>
+						<i class="fas fa-school"></i>		
+					</div>
+				</div>
+				<div class="second-row">
+					<div class="icons-competencia">
+						<i class="fas fa-globe-americas"></i>
+						<i class="fas fa-language"></i>
+					</div>
+					<div class="second-row-school">
+						<h2>Inglês Intermediário</h2>
+						<h3>WiseUp Online</h3>
+						<div class="circles">
+							<i class="fas fa-circle"></i>
+							<i class="fas fa-circle"></i>
+							<i class="fas fa-circle"></i>
+							<i class="far fa-circle"></i>
+							<i class="far fa-circle"></i>
+						</div>
+					</div>
+				</div>				
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript">
-		var $root = $('html, body');
-
-		$('a[href^="#"]').click(function () {
-			$root.animate({
-				scrollTop: $( $.attr(this, 'href') ).offset().top
-			}, 500);
-
-			return false;
-		});
-	</script>
+	<script type="text/javascript"></script>
 </body>
 </html>

@@ -34,6 +34,7 @@ html{
     justify-content: space-between;
     margin-right: 0;
     top: 0;
+    z-index: 1;
 }
 .menu{
     flex-direction: row;
@@ -85,6 +86,7 @@ li{
     height: 350px;
     object-fit: cover;
 }
+/*Section About*/
 #sobre {
     display: flex;
     align-items: center;
@@ -129,6 +131,7 @@ li{
     border: 1px solid #0a0e14;
     background-color: white;
 }
+/*Section Habilidades*/
 #habilidades {
     padding: 0 5rem;
     padding-top: 6.875rem;
@@ -137,11 +140,12 @@ li{
 }
 #habilidades h1 {
     text-align: center;
+    border-top: 1px solid white;
+    padding: 20px;
 }
 .skills{
     display: flex;
     justify-content: space-between;
-    padding-top: 4rem;
     flex-direction: column;
 }
 .row-skills{
@@ -160,9 +164,10 @@ li{
     height: 10rem;
     width: 10rem;
     border-radius: 1.33rem;
-    transition: 0.9s;
+    transition: 0.6s;
 }
 .row-skills div:hover {
+    transform: scale(1.1);
     background: #0f1419;
     border: 1px solid #0a0e14;
     box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
@@ -175,5 +180,64 @@ li{
 .language i{
     font-size: 40px;
     margin-top: 25px;
+}
+/*Section Competências*/
+#competencias{
+    padding: 0 80px;
+    padding-top: 50px;
+    padding-bottom: 6.875rem;
+}
+#competencias h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.first-row{
+    margin-top: ;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-competencia i{
+    color: rgb(214, 214, 214);    
+    font-size: 3.7rem;
+    margin: 0;
+}
+.first-row h2 {
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.2rem;
+    margin: 0;
+}
+.first-row h3, #competencias .first-row h4 {
+    font-weight: 500;
+    color: grey;
+    padding-top: 5px;
+    margin: 0;
+    font-size: 16px;
+}
+.second-row {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-row .second-row-school {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.second-row h2 {
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.second-row h3, #competencias .second-row h4 {
+    font-weight: 500;
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: 16px;
 }
 
