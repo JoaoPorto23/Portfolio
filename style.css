@@ -185,21 +185,15 @@ li{
 #competencias{
     padding: 0 80px;
     padding-top: 50px;
-    padding-bottom: 6.875rem;
+    padding-bottom: 4rem;
 }
 #competencias h1{
     text-align: center;
     margin-bottom: 50px;
 }
 .first-row{
-    margin-top: ;
     display: flex;
     justify-content: space-between;
-}
-.icons-competencia i{
-    color: rgb(214, 214, 214);    
-    font-size: 3.7rem;
-    margin: 0;
 }
 .first-row h2 {
     font-size: 20px;
@@ -215,29 +209,26 @@ li{
     margin: 0;
     font-size: 16px;
 }
-.second-row {
-    margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
+.quote{
+    margin-left: 250px;
+    margin-right: 250px;
 }
-.second-row .second-row-school {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.quote i{
+    font-size: 24px;
 }
-.second-row h2 {
-    font-size: 20px;
-    color: rgb(223, 223, 223);
-    border-bottom: 1px solid #fff;
-    padding-bottom: 5px;
-    margin: 0;
+.quote h3{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(218, 218, 218);
+    font-weight: 100;
 }
-.second-row h3, #competencias .second-row h4 {
-    font-weight: 500;
-    color: grey;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
-    font-size: 16px;
+#projetos{
+    padding: 0 5rem;
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+    background-color: #0f1419;
 }
-
+#projetos h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
